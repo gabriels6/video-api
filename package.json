@@ -1,0 +1,17 @@
+{
+  "name": "Youtube-clone-api",
+  "version": "1.0.0",
+  "description": "An api for an educational purpose youtube clone project",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0"
+  },
+  "scripts": {
+    "start": "node src/App/index.js"
+  }
+}
