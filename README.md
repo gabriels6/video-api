@@ -63,6 +63,9 @@ GET: /User
 HEADERS:{
     user-access-token:JsonWebToken(String)
 }
+
+GET: /User/public
+
 POST: /User
 BODY: {
     Name:String,
@@ -103,6 +106,8 @@ GET: /Channel
 HEADERS:{
     user-access-token:JsonWebToken(String)
 }
+
+GET: /Channel/public
 
 POST: /Channel
 HEADERS:{
