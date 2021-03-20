@@ -24,7 +24,7 @@ routes.post('/Channel',verifyJWT,ChannelController.store);
 routes.put('/Channel',verifyJWT,ChannelController.update);
 
 //Video routes
-routes.get('/Video',verifyJWT,VideoController.index);
+routes.get('/Video',VideoController.index);
 routes.post('/Video',verifyJWT,VideoController.store);
 routes.put('/Video',verifyJWT,VideoController.update);
 
